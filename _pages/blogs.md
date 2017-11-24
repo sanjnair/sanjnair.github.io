@@ -3,8 +3,9 @@ title:  "Blogs"
 layout: archive
 permalink: /blogs/
 author_profile: true
-comments: true
+comments: false
 ---
 
-This is my blog page.
+Under contruction
+
 
