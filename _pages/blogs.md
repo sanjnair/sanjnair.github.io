@@ -6,6 +6,13 @@ author_profile: true
 comments: false
 ---
 
-Under contruction
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
 
 
